@@ -1,14 +1,14 @@
 #Trabalhando com texto através do print
 
 #Texto em Python pode ser aspas ' ' ou compostas " "
-nome = "Rafael Silva de Jesus"
+nome = 'Rafael Silva de Jesus'
 curso = 'ADS'
 idade = 30
 print(nome, curso)
 
 #Juntar texto ou concatenar texto
 # é utilizado o operador +
-print("Nome: "+nome+" Curso: "+curso)
+print('Nome: '+nome+' Curso: '+curso)
 
 # f-string (format-string), dentro de um texto { }
 print(f"Nome: {nome} Curso: {curso} Idade: {idade}")
