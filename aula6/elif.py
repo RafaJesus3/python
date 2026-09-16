@@ -1,0 +1,10 @@
+nota = float(input("Digite sua nota (0 a 100): "))
+
+# Condicional Encadeada (if/elif/else)
+
+if nota >=60:
+    print("Aprovado")
+elif nota>=40:
+    print("Exame")
+else:
+    print("Reprovado")
